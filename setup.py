@@ -1,19 +1,18 @@
 from setuptools import setup, find_packages
 
-version = '1.0'
-
 setup(name='dreamcatcherfarm.produce',
-      version=version,
+      version='1.0',
       description="",
       long_description="",
       classifiers=[
+        "Framework :: Plone",
         "Programming Language :: Python",
         ],
       keywords='',
       author='',
       author_email='',
       url='',
-      license='gpl',
+      license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['dreamcatcherfarm'],
       include_package_data=True,
@@ -28,4 +27,5 @@ setup(name='dreamcatcherfarm.produce',
       [z3c.autoinclude.plugin]
       target = plone
       """,
+      setup_requires=[]
       )
